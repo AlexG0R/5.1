@@ -6,11 +6,11 @@ public class Main {
         boolean registered = true;
         long expected = 30;
         //вызываем целевой метод
-        long actual = service.calculate(amount,registered);
+        long actual = service.calculate(amount, registered);
         //производим проверку
         //если true - TO PASS
         //если false - TO FAIL
-        boolean passed = expected==actual;
+        boolean passed = expected == actual;
         //выводим результат
         System.out.println(passed);
     }
